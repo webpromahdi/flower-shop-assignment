@@ -13,7 +13,7 @@ body{
     border-radius: 8px;
     background: #E55473;
     color: white;
-    padding: 20px 40px
+    padding: 20px 40px;
     }
 .btn:hover{
     background-color: #9b243e;
@@ -163,4 +163,52 @@ header{
 .instagram-images img{
     width: 285px;
     height: 320px;
+}
+/* Instagram Section end */
+
+/* Get Deal Section Start */
+.get-laestdeals-section{
+    margin-top: 200px;
+    border-radius: 5px;
+    height: 370px;
+    background-image: url("Flower\ Asset/Rectangle 9.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.get-laestdeals-section .section-content input{
+    padding: 23px 500px 22px 22px;
+    border: 0 solid white;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+/* Get Deal Section End */
+
+/* Footer Section start */
+footer{
+    height: 360px;
+    background: #111010;
+    color: white;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.footer-content h2{
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+.footer-content p{
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+#copyright{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 14px;
+    font-weight: 300;
 }
