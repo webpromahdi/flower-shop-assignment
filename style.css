@@ -132,7 +132,6 @@ header{
     height: 510px;
     background-color: rgba(229, 84, 115, 0.05);
     margin-top: 200px;
-    margin-bottom: 300px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -153,4 +152,15 @@ header{
 }
 /* Hot Deal Section end */
 
-
+/* Instagram Section start */
+.instagram-section{
+    margin-top: 200px;
+}
+.instagram-images{
+    display: flex;
+    justify-content: space-between;
+}
+.instagram-images img{
+    width: 285px;
+    height: 320px;
+}
