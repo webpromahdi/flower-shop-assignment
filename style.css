@@ -113,7 +113,7 @@ header{
     border: rgba(39, 39, 39, 0.05);
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
-    margin-top: 200px;
+    margin-top: 150px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -131,7 +131,7 @@ header{
 .hot-deal{
     height: 510px;
     background-color: rgba(229, 84, 115, 0.05);
-    margin-top: 200px;
+    margin-top: 150px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -154,7 +154,7 @@ header{
 
 /* Instagram Section start */
 .instagram-section{
-    margin-top: 200px;
+    margin-top: 150px;
 }
 .instagram-images{
     display: flex;
@@ -166,9 +166,31 @@ header{
 }
 /* Instagram Section end */
 
+/* frequently asked questions start */
+.faq-section{
+    background-color: rgba(229, 84, 115, 0.05);
+    margin-top: 150px;
+    padding: 40px 0;
+  
+}
+.questions-container{
+
+}
+.questions-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ques-container p{
+    background-color: rgb(255, 255, 255);
+    border: 2px solid #E55473;
+    margin: 15px 0;
+    padding: 10px;
+}
+/* frequently asked questions end */
+
 /* Get Deal Section Start */
 .get-laestdeals-section{
-    margin-top: 200px;
+    margin-top: 150px;
     border-radius: 5px;
     height: 370px;
     background-image: url("Flower\ Asset/Rectangle 9.png");
@@ -185,12 +207,12 @@ header{
 }
 /* Get Deal Section End */
 
-/* Footer Section start */
+/* Footer Section*/
 footer{
     height: 360px;
     background: #111010;
     color: white;
-    margin-top: 200px;
+    margin-top: 150px;
     display: flex;
     justify-content: space-between;
     align-items: center;
