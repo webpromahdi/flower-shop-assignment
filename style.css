@@ -25,6 +25,7 @@
     text-align: center;
     font-size: 35px;
     font-weight: 800;
+    margin-bottom: 20px;
 }
 .section-content p{
     color: rgba(39, 39, 39, 0.60);
@@ -32,6 +33,7 @@
     font-size: 17px;
     font-weight: 400;
     line-height: 30px;
+    margin-bottom: 30px;
 }
 /* Throughout the website end*/
 
@@ -101,4 +103,24 @@ main{
     color: #272727;
     font-size: 20px;
     font-weight: 700;
+}
+/* featured flowers section end */
+
+/* Service section start */
+.service-section{
+    height: 270px;
+    border: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+.services p{
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 5px;
 }
